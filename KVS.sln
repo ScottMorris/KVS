@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KVS", "KVS\KVS.csproj", "{4ABB56BE-5B76-430D-ABA8-0E32FA13B5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KVS.Tests", "KVS.Tests\KVS.Tests.csproj", "{EF2C6610-C59B-4A12-B835-57FE6BE8D14E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ABB56BE-5B76-430D-ABA8-0E32FA13B5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABB56BE-5B76-430D-ABA8-0E32FA13B5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABB56BE-5B76-430D-ABA8-0E32FA13B5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABB56BE-5B76-430D-ABA8-0E32FA13B5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2C6610-C59B-4A12-B835-57FE6BE8D14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2C6610-C59B-4A12-B835-57FE6BE8D14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2C6610-C59B-4A12-B835-57FE6BE8D14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2C6610-C59B-4A12-B835-57FE6BE8D14E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
