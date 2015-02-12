@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using KVS.Models.Clients;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -30,6 +31,9 @@ namespace KVS.Models
             return new ApplicationDbContext();
         }
 
-        public System.Data.Entity.DbSet<KVS.Models.Client> Clients { get; set; }
+        public System.Data.Entity.DbSet<Client> Clients { get; set; }
+
+		public System.Data.Entity.DbSet<KVS.Models.Inventory.Warehouse> Warehouses { get; set; }
+		public System.Data.Entity.DbSet<KVS.Models.Inventory.WarehouseType> WarehouseTypes { get; set; }
     }
 }
