@@ -29,5 +29,7 @@ namespace KVS.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<KVS.Models.Client> Clients { get; set; }
     }
 }
