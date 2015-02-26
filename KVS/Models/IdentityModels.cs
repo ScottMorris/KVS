@@ -35,5 +35,7 @@ namespace KVS.Models
 
 		public System.Data.Entity.DbSet<KVS.Models.Inventory.Warehouse> Warehouses { get; set; }
 		public System.Data.Entity.DbSet<KVS.Models.Inventory.WarehouseType> WarehouseTypes { get; set; }
+
+		public System.Data.Entity.DbSet<KVS.Models.Inventory.Inventory> Inventories { get; set; }
     }
 }
