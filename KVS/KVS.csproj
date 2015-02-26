@@ -172,6 +172,7 @@
     <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InventoriesController.cs" />
+    <Compile Include="Controllers\InventoryItemsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\WarehousesController.cs" />
     <Compile Include="Dal\DatabaseInitializer.cs" />
@@ -259,6 +260,11 @@
     <Content Include="Views\Inventories\Details.cshtml" />
     <Content Include="Views\Inventories\Edit.cshtml" />
     <Content Include="Views\Inventories\Index.cshtml" />
+    <Content Include="Views\InventoryItems\Create.cshtml" />
+    <Content Include="Views\InventoryItems\Delete.cshtml" />
+    <Content Include="Views\InventoryItems\Details.cshtml" />
+    <Content Include="Views\InventoryItems\Edit.cshtml" />
+    <Content Include="Views\InventoryItems\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
